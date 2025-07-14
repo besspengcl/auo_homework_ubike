@@ -1,5 +1,13 @@
-# Vue 3 + Vite
+# UBike搜尋站點網站
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+一個基於 Vue 3 + Vite 打造的UBike站點搜尋與收藏工具，提供快速查詢、詳細資訊展開、收藏功能。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+主要功能
+1. 查詢站點
+輸入關鍵字（站名或地址）後，按下 Enter 或「搜尋」按鈕。
+顯示符合條件的站點清單。
+2. 顯示詳細資訊
+點擊站點名稱，即可展開該站點的詳細資料（站名、地址、目前空車數、可借車輛等資訊）。
+3. 收藏站點
+可以將常用站點加入收藏（使用 localStorage 儲存）。
+在【我的收藏】區塊，可以快速展開或刪除收藏的站點。
